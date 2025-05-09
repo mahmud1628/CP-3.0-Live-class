@@ -1,4 +1,4 @@
-Check the fraction.cpp file. There is class named 'fraction'.
+Check the fraction.cpp file. There is a class named 'fraction'.
 Members of this class are numerator and denominator.
 
 Tasks:
