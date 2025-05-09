@@ -1,0 +1,80 @@
+pow(x,y)  => returns x^y
+
+pow(2,3) => 8
+
+running time => O(logn) Base = 2
+
+
+
+sqrt:
+
+sqrt(n) => returns a double value : square root of n
+
+running time => O(root(n))
+
+
+cbrt:
+cbrt(n) => returns a double value : cube root of n
+
+
+ceil:
+
+ceil(n) => round up
+
+n = 4.3 => ceil(n) = 5
+
+floor:
+
+floor(n) => round down
+
+n = 4.3 => floor(n) = 4
+
+round:
+
+round(n) => round to nearest value 
+
+n = 4.3 => 4
+n = 4.5 => 5
+n = 4.7 => 5
+
+Check the digits after decimal point: If the digit is less than 5, then it will round down.
+Otherwise it will round up.
+
+Trunc:
+
+trunc(n) => round down
+
+
+
+min:
+
+min(x,y) => minimum of x and y
+
+max:
+
+max(x,y) => maximum of x and y
+
+
+popcount:
+
+popcount(n) => returns a integer value : number of set bits in the binary representation of the number
+
+n = 5 => binary : 101 => 2 set bits
+n = 7 => binary : 111 => 3 set bits
+n = 2 => binary : 10 => 1 set bits
+
+
+
+
+
+
+OOP:
+
+A school: 
+ Many students
+
+ array => store roll numbers of students 
+ array => store names of students 
+
+
+

@@ -1,0 +1,19 @@
+Check the fraction.cpp file. There is class named 'fraction'.
+Members of this class are numerator and denominator.
+
+Tasks:
+
+Task 1 : Overload the insertion operator to print a fraction object like 'numerator/denominator'
+
+Task 2 : Overload < operator to compare two fraction objects depending on their numerical value.
+
+Task 3 : Complete the function 'add'
+        The function will take a fraction object as argument and return a fraction object.
+        For example, let a fraction object be f1 where f1.num = 3 and f1.den = 4.
+        Another fraction object be f2 where f2.num = 1 and f2.den = 3
+        Then f3 = f1.add(f2) or f3 = f2.add(f1) will lead to the following result:
+            f3.num = 13 and f3.den = 12
+
+Task 4 : Overload the + operator to do the things mentioned in Task 3.
+        After overloading the + operator we can write,
+        f3 = f1 + f2 instead of f3 = f1.add(f2)
